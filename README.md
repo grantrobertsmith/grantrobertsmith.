@@ -1,2 +1,2 @@
-# grantrobertsmith.
+# grantrobertsmith.com
 My personal website
