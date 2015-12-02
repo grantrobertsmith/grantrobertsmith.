@@ -2,10 +2,20 @@
 header, nav, article, section, aside, footer, address {  
   display: block; }
 
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url('fonts/League_Gothic-webfont.eot');
+  src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/League_Gothic-webfont.woff') format('woff'),
+    url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+    url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "museo-sans","Helvetica"; }
+  font-family: LeagueGothicRegular; }
 
 header {
   background-color: black }
