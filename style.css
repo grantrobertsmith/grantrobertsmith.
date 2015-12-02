@@ -6,16 +6,7 @@ header, nav, article, section, aside, footer, address {
 body { 
   margin: 0;
   padding: 0;
-  background-color: #DEBC16;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.wrapper {
-  width: 960px;
-  min-height: 720px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20px;
 }
 
 @font-face {
@@ -29,33 +20,24 @@ body {
   font-style: normal;
 }
 
-header p {
-  color: #DEBC16;
-}
-
 h1 {
   text-transform: uppercase;
-  color: #2A0B5B;
   font-family: LeagueGothicRegular;
   font-size: 80px;
   font-weight: lighter;
-  text-shadow: 0px 2px 0px #220000;
   margin: 30px 0 0 0;
 }
 
 h2 {
   text-transform: uppercase;
-  color: #DEBC16;
   font-family: LeagueGothicRegular;
   font-size: 24px;
   font-weight: lighter;
-  text-shadow: 0px 2px 0px #220000;
   margin: 15px 0 15px 20px;
   text-align: left;
 }
 
 p {
-  color: #2A0B5B;
   margin: 0;
   font-size: 16px;
 }
