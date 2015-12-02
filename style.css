@@ -6,6 +6,7 @@ header, nav, article, section, aside, footer, address {
 body { 
   margin: 0;
   padding: 0;
+  background-color: #DEBC16;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -28,9 +29,13 @@ body {
   font-style: normal;
 }
 
+header p {
+  color: #DEBC16;
+}
+
 h1 {
   text-transform: uppercase;
-  color: #DEBC16;
+  color: #2A0B5B;
   font-family: LeagueGothicRegular;
   font-size: 80px;
   font-weight: lighter;
