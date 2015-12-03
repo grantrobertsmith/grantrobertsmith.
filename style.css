@@ -62,6 +62,8 @@ header {
   header p {
     font-size: 32px;
     color: white; }
+    header p.lead {
+      font-size: 36px; }
 
 h1 {
   text-transform: uppercase;
@@ -80,4 +82,5 @@ p {
   margin: 0;
   font-size: 16px; }
   p.lead {
-    color: #DEBC16 }
+    color: #DEBC16; 
+    font-size: 20px; }
