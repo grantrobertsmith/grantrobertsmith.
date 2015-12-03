@@ -3,19 +3,15 @@ header, nav, article, section, aside, footer, address {
   display: block; }
 
 @font-face {
-  font-family: 'LeagueGothicRegular';
-  src: url('fonts/League_Gothic-webfont.eot');
-  src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/League_Gothic-webfont.woff') format('woff'),
-    url('fonts/League_Gothic-webfont.ttf') format('truetype'),
-    url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'GlacialIndifferenceRegular';
+  src: url('fonts2/glacial-indifference-regular.woff2') format('woff2'),
+    url('fonts2/glacial-indifference-regular.woff') format('woff'); }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: LeagueGothicRegular; }
+  font-family: 'GlacialIndifferenceRegular'; }
+  /*font-family: 'LeagueGothicRegular'; }*/
 
 header {
   background-color: black }
@@ -39,3 +35,5 @@ h2 {
 p {
   margin: 0;
   font-size: 16px; }
+  p.lead {
+    color: #DEBC16 }
