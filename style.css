@@ -63,11 +63,33 @@ header {
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 16px;
     color: white; }
     header p.lead {
       text-decoration: underline;
+      font-size: 18px; }
+    header p.footnote {
+      position: absolute;
+      bottom: 0;
+      font-size: 10px; }
+
+@media (min-width: 550px) {
+  header p {
+    font-size: 24px; }
+    header p.lead {
+      font-size: 27px; }
+    header p.footnote {
+      font-size: 15px; }
+}
+
+@media (min-width: 1084px) {
+  header p {
+    font-size: 32px; }
+    header p.lead {
       font-size: 36px; }
+    header p.footnote {
+      font-size: 20px; }
+}
 
 h1 {
   text-transform: uppercase;
