@@ -51,18 +51,21 @@ header, nav, article, section, aside, footer, address {
   font-weight: bold;
 }
 
-/* Elements */
+/* Tags */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Free Universal'; }
 
 header {
-  background-color: black }
+  background-color: black; }
   header p {
+    margin-top: 10px;
+    margin-left: 20px;
     font-size: 32px;
     color: white; }
     header p.lead {
+      text-decoration: underline;
       font-size: 36px; }
 
 h1 {
@@ -82,5 +85,19 @@ p {
   margin: 0;
   font-size: 16px; }
   p.lead {
-    color: #DEBC16; 
-    font-size: 20px; }
+    font-size: 20px; 
+    margin-bottom: 10px; }
+
+/* Element IDs */
+#greeting {
+  float: left;
+  background: url('assets/images/nebula-black-and-white.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 83.333333333%; }
+
+/* Self Clearing Goodness */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
