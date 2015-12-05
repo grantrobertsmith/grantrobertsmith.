@@ -60,20 +60,52 @@ body {
 header {
   background-color: black; }
   header p {
-    margin-top: 10px;
+    margin-top: 2px;
     margin-left: 20px;
-    margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 8px;
     color: white; }
     header p.lead {
       text-decoration: underline;
-      font-size: 18px; }
+      font-size: 9px; }
     header p.footnote {
       position: absolute;
       bottom: 0;
-      font-size: 10px; }
+      margin-bottom: 2px;
+      font-size: 6px; }
+
+@media (min-width: 400px) {
+  header p {
+    margin-top: 4px;
+    font-size: 11px; }
+    header p.lead {
+      font-size: 14px; }
+    header p.footnote {
+      font-size: 8px; }
+}
 
 @media (min-width: 550px) {
+  header p {
+    margin-top: 8px;
+    font-size: 15px; }
+    header p.lead {
+      font-size: 18px; }
+    header p.footnote {
+      margin-bottom: 4px;
+      font-size: 10px; }
+}
+
+@media (min-width: 750px) {
+  header p {
+    margin-top: 10px;
+    font-size: 18px; }
+    header p.lead {
+      font-size: 20px; }
+    header p.footnote {
+      margin-bottom: 10px;
+      font-size: 12px; }
+}
+
+@media (min-width: 1000px) {
   header p {
     font-size: 24px; }
     header p.lead {
@@ -82,13 +114,58 @@ header {
       font-size: 15px; }
 }
 
-@media (min-width: 1084px) {
+@media (min-width: 1200px) {
   header p {
     font-size: 32px; }
     header p.lead {
       font-size: 36px; }
     header p.footnote {
       font-size: 20px; }
+}
+
+@media (min-width: 1500px) {
+  header p {
+    font-size: 40px; }
+    header p.lead {
+      font-size: 46px; }
+    header p.footnote {
+      font-size: 25px; }
+}
+
+@media (min-width: 1800px) {
+  header p {
+    font-size: 48px; }
+    header p.lead {
+      font-size: 56px; }
+    header p.footnote {
+      font-size: 30px; }
+}
+
+@media (min-width: 2100px) {
+  header p {
+    font-size: 60px; }
+    header p.lead {
+      font-size: 70px; }
+    header p.footnote {
+      font-size: 36px; }
+}
+
+@media (min-width: 2400px) {
+  header p {
+    font-size: 72px; }
+    header p.lead {
+      font-size: 84px; }
+    header p.footnote {
+      font-size: 46px; }
+}
+
+@media (min-width: 2700px) {
+  header p {
+    font-size: 84px; }
+    header p.lead {
+      font-size: 96px; }
+    header p.footnote {
+      font-size: 56px; }
 }
 
 h1 {
@@ -108,8 +185,7 @@ p {
   margin: 0;
   font-size: 16px; }
   p.lead {
-    font-size: 20px; 
-    margin-bottom: 10px; }
+    font-size: 20px; }
 
 /* Element IDs */
 #greeting {
@@ -118,6 +194,7 @@ p {
   background: url('assets/images/nebula-black-and-white.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: left center;
   width: 83.333333333%; }
 
 /* Self Clearing Goodness */
@@ -125,3 +202,7 @@ p {
   content: "";
   display: table;
   clear: both; }
+
+/* Classes */
+.gold {
+  color: #DEBC16; }
