@@ -58,8 +58,6 @@ body {
   font-family: 'Free Universal'; }
 
 header {
-  position: relative;
-  z-index: -15;
   background-color: black; }
   header p {
     margin-top: 2px;
@@ -183,29 +181,6 @@ h2 {
   margin: 15px 0 15px 20px;
   text-align: left; }
 
-a { font-style: bold;
-  font-color: inherit;
-  text-decoration: inherit; }
-  a::before {
-    position: absolute;
-    top: 0;
-    left: -5px;
-    z-index: -1;
-    padding: 0 5px;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: red;
-    content: '';
-    opacity: 0;
-    box-sizing: content-box;
-    transition: transform 0.2s, opacity 0.2s;
-    transform: scale(0); }
-  a:hover::before,
-  a:focus::before {
-    opacity: 1;
-    transform: scale(1); }
-
 p {
   margin: 0;
   font-size: 16px; }
@@ -220,7 +195,6 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left center;
-  z-index: -10;
   width: 83.333333333%; }
 
 /* Self Clearing Goodness */
