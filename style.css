@@ -63,7 +63,7 @@ header {
     margin-top: 2px;
     margin-left: 20px;
     font-size: 8px;
-    color: white; }
+    color: #FAFAFA; }
     header p.lead {
       text-decoration: underline;
       font-size: 9px; }
@@ -186,6 +186,11 @@ p {
   font-size: 16px; }
   p.lead {
     font-size: 20px; }
+
+a, a:link, a:visited, a:link:active, a:visited:active {
+  font-weight: bold;
+  color: gray;
+  text-decoration: inherit; }
 
 /* Element IDs */
 #greeting {
